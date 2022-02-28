@@ -1,0 +1,24 @@
+Assignment : Audio Visualizer with GLSL
+
+- Implement audio visualizer using GLSL and C++.
+
+- Use Fmod to play the music and retrieve the audio data.
+
+- The rectangle mesh(2 triangles, 6 vertices) should fill the entire screen.
+
+- You are not allowed to use more than total 12 uniform variables, 
+you are suggested to process the audio data(beat detection, etc) in CPU(C++ code) 
+and update the visualization information through uniform variables to GPU(GLSL code).
+
+Restrictions :
+
+1) Max 6 vertices
+
+2) Max 12 uniform variables (either float or int, 
+if you send an uniform array variable with the size of 12, it's counted as 12.)
+
+3) Max 1 texture
+
+Submission Date : 26 Feb 2020, Wed(in class)
+
+https://github.com/EpicCrisis/Skybox-Bloom-GLSL/tree/develop/Week%205%20Project
